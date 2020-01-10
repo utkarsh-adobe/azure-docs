@@ -91,7 +91,7 @@ Follow these steps to enable Azure AD SSO in the Azure portal.
     `https://www.okta.com/saml2/service-provider/<token>`
 
 	> [!NOTE]
-	> The Identifier value is not real. Update this value with the actual Identifier. Contact [Adobe Creative Cloud Client support team](https://www.adobe.com/au/creativecloud/business/teams/plans.html) to get this value. You can also refer to the patterns shown in the **Basic SAML Configuration** section in the Azure portal.
+	> The Identifier value is not real. Update this value with the actual Identifier. You can copy thw identifier value or the Entity ID from the Adobe Admin Console.
 
 1. Adobe Creative Cloud application expects the SAML assertions in a specific format, which requires you to add custom attribute mappings to your SAML token attributes configuration. The following screenshot shows the list of default attributes.
 
